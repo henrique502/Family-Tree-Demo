@@ -1,0 +1,9 @@
+body { background-color: #ccc; } 
+.canvas-container { position: relative; height: 600px; overflow: scroll; outline: solid 1px; display: block; }
+.canvas-container canvas { background-color: red; position: absolute; }
+
+.canvas-container .controls { position: absolute; z-index: 5; bottom: 15px; right: 15px; background-color: #fff; border-radius: 5px; padding: 5px; }
+.canvas-container .controls input { vertical-align: middle; float: left; }
+.canvas-container .controls button { width: 21px; height: 21px; float: left; text-align: center; vertical-align: middle; padding: 0; border: solid 1px #c0c0c0;  }
+.canvas-container .controls button:first-child { border-radius: 5px 0 0 5px; }
+.canvas-container .controls button:last-child { border-radius: 0 5px 5px 0; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Family Tree Demo</title>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/joint.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script src="js/jquery.js"></script>
+        <script src="js/lodash.js"></script>
+        <script src="js/backbone.js"></script>
+        <script src="js/joint.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <div class="canvas-container">
+                    <div id="paper" class="paper"></div>
+                    <div class="controls">
+                        <button id="scale-menos">-</button>
+                        <input id="scale" type="range" min="0.05" max="1" step="0.05" value="1">
+                        <button id="scale-mais">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
